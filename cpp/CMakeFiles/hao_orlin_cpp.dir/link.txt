@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -flto -shared  -o hao_orlin_cpp.cpython-312-x86_64-linux-gnu.so CMakeFiles/hao_orlin_cpp.dir/hao_orlin_bind.cpp.o  -llemon -llemon 
