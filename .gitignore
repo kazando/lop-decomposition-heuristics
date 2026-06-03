@@ -1,10 +1,23 @@
+#Python
 __pycache__/
-*.pyc
+*.py[cod]
 
+# Virtual Environments
 .venv/
 venv/
 
+# CMake
+cpp/CMakeFiles/
+cpp/CMakeCache.txt
+cpp/Makefile
+cpp/cmake_install.cmake
+
+# Compiled libraries
+*.so
+
+# OS files
 .DS_Store
 
+# Logs and results
 results/*.log
 results/*.csv
