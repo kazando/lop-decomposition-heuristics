@@ -5,11 +5,8 @@ import itertools
 # This function is used to solve the subproblems in the constructive heuristic methods. It takes a matrix B and 
 # the size of the subproblem m as input and returns the optimal permutation sigma2.
 #######################################################################################################################
-env = gp.Env(
-    params={
-            "OutputFlag": 0,
-    }
-)
+env = gp.Env()
+env.setParam('OutputFlag', 0)
 
 def gurobi_solve(B,m):
     # Declaration of the Gurobi model
