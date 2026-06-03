@@ -32,6 +32,10 @@ The repository implements several constructive heuristics for the Linear Orderin
 src/
     source codes of algorithms
 
+cpp/
+    C++ extension for the Hao--Orlin minimum cut algorithm
+    used by the minimum cut heuristic
+
 experiments/
     scripts used for the computational experiments reported in the paper
 
@@ -44,6 +48,9 @@ data/
 results/
     computational results
 ```
+
+See cpp/README.md for build instructions and dependencies.
+
 ## Gurobi License
 
 Some components of this repository use Gurobi to solve subproblems exactly.
